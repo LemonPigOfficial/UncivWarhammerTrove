@@ -53,6 +53,7 @@
 		//"uniqueText": "+1 Population to all cities settled on Fresh Water \nAll Land-Military units gain the Amphibious promotion \n-33% tile improvement construction time in River tiles",
 		"uniques": ["[-33]% construction time for [All] improvements <in [River] tiles>",
 					"Starts with [Old World]",
+					"Old World Nation",
 					"[+25]% Strength <vs [Beast] units>",
 					"Notified of new Barbarian encampments",					
 					"[{Military} {Land}] units gain the [Drill] promotion"], 
@@ -229,10 +230,11 @@
 		"tradeRequest": "I offers you this exceptional proposition.",
 		
 		"uniques": ["Starts with [Old World]",
+					"Old World Nation",
 					"Gain [250] [Gold] <upon conquering a city>", 
 					"[+1] Movement <for [Military] units> <when at war>", 
 					"[+1] Sight <for [{Military} {Land}] units>", 
-					"May buy [Shrine of Ursun] buildings with [Faith] [in all cities]"
+					"May buy [Shrine of Ursun] buildings with [Faith] [in all cities]",
 					"Provides [3] [Horses]"],
 		"cities": ["Kislev","Praag","Erengrad","Volksgrad","Belev","Kobrin","Krakjunov","Bolgasgrad","Patragresk","Preslav","Rakhov","Omensk","Zilair","Gdov","Chazask","Pinsk","Murmagrad","Dubna","Egorevsk","Oolnza","Nyrob","Yaransk","Tzeskagrad","Krovas","Shatsk","Selkov"],
 
@@ -307,6 +309,7 @@
 		"tradeRequest": "I offers you this exceptional proposition.",
 		
 		"uniques": ["Starts with [Channeling]",
+					"Dolmen Nation",
 					"Enables embarkation for land units <starting from the [Ancient age]>", 
 					"Enables [All] units to enter ocean tiles <starting from the [Age of Magic]>",
 					"Defense bonus when embarked <for [All] units>",
@@ -395,7 +398,8 @@
 		"hateHello": "Shame on you.",
 		"tradeRequest": "I offers you this exceptional proposition.",
 		
-		"uniques": ["Starts with [Old World]"],
+		"uniques": ["Starts with [Old World]",
+					"Old World Nation"],
 		"cities": ["Magritta","Bilbali","Aguilas","Ubrique","Geulata","Larhgoz","Belmoz","Zaragoz","Vizeaya","Astorias","MonteTilea","Borgas","Graus","Muros","Ubrique","Los Cabos","Barboza","Almyria","Pajena","Javea","Almagora","Cebreros","Potes","Sitges"],
 
 		"civilopediaText": [
@@ -429,7 +433,8 @@
 		"hateHello": "Shame on you.",
 		"tradeRequest": "I offers you this exceptional proposition.",
 		
-		"uniques": ["Starts with [Old World]"],
+		"uniques": ["Starts with [Old World]",
+					"Old World Nation"],
 		"cities": ["Remas","Tobaro","Luccini","Miragliano","Pavona","Sartosa","Trantio","Verezzo","Monte Castello"],
 
 		"civilopediaText": [
@@ -978,7 +983,8 @@
 		"tradeRequest": "I offers you this exceptional proposition.",
 		
 
-		"uniques": ["Starts with [Channeling]"],
+		"uniques": ["Starts with [Channeling]",
+					"Dolmen Nation"],
 		"cities": ["Winwood","Runsinane","Castle McEwman"],
 
 		"civilopediaText": [
@@ -1042,7 +1048,8 @@
 		"hateHello": "Shame on you.",
 		"tradeRequest": "I offers you this exceptional proposition.",
 		
-		"uniques": ["Starts with [Far East]"],
+		"uniques": ["Starts with [Far East]",
+					"Far East Nation"],
 		"cities": ["Weijin","Nan-Gau","Shang-Yang","Shang Wu","Fu-Chow","Fu-Hung","Nan Chu","Heyang","Wang","Shuang Hsi"],
 
 		"civilopediaText": [
@@ -1075,7 +1082,8 @@
 		"hateHello": "Shame on you.",
 		"tradeRequest": "I offers you this exceptional proposition.",
 		
-		"uniques": ["Starts with [Far East]"],
+		"uniques": ["Starts with [Far East]",
+					"Far East Nation"],
 		"cities": ["Tokaguchi","Hyudo","Makudo","Kiroshima","Tokaido","Kumano","Izumo","Okakama","Kumayama","Yamanashi","Shoto","Sado"],
 
 		"civilopediaText": [
@@ -1275,7 +1283,8 @@
 		"startBias": ["Tundra"],
 		"style": "Human",
 		
-		"uniques": ["Starts with [Far East]"],
+		"uniques": ["Starts with [Far East]",
+					"Far East Nation"],
 		"cities": ["Aghols","Chi-An","Dreaded Wo","Kuj","Man-Chu","Mung","Tu-Ka","Wei-Tu","Yin"],
 
 		"civilopediaText": [
@@ -1297,7 +1306,8 @@
 		"outerColor": [105, 34,0]
 		"innerColor": [0,0,0],
 		
-		"uniques": ["Starts with [Far East]"],
+		"uniques": ["Starts with [Far East]",
+					"Far East Nation"],
 		"cities": ["Norvard",""],
 
 		"civilopediaText": [
