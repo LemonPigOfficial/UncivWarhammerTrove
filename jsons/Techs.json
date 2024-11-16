@@ -99,8 +99,8 @@
 				"name": "Chaos",
 				"row": 15,
 				"uniques": ["Unavailable <for [Loren]>","Unavailable <for [Bretonnia]>","Unavailable <for [Estalia]>","Unavailable <for [Tilea]>","Unavailable <for [Reikland]>","Unavailable <for [Sylvania]>","Unavailable <for [Kislev]>","Unavailable <for [Norsca]>","Unavailable <for [Ironclaw Orcs]>","Unavailable <for [Khemri]>","Unavailable <for [Araby]>","Unavailable <for [Ind]>","Unavailable <for [Ogre Kingdoms]>","Unavailable <for [Kurgan]>","Unavailable <for [Dwarfs]>","Unavailable <for [Naggaroth]>","Unavailable <for [Slann]>","Unavailable <for [Amazonia]>","Unavailable <for [Skaven]>","Unavailable <for [Cathay]>","Unavailable <for [Nippon]>","Unavailable <for [Badmoon Goblins]>","Unavailable <for [Ulthuan]>","Unavailable <for [Albion]>"],
-				"quote": "This is a free advance granted to Beastmen, Hordes of Chaos and Chaos Dwarfs."
-			}
+				"quote": "This is a free advance granted to Beastmen, Hordes of Chaos, Khorne, Nurgle, Slaanesh, Tzeentch and Chaos Dwarfs."
+			},
 		]
 	},
 	{
@@ -413,6 +413,7 @@
 				"name": "Sanitation",
 				"row": 3,
 				"prerequisites": ["Construction"],
+				"uniques": ["Unavailable <for [Nurgle]>"]
 				"quote": ""
 			},
 			{
@@ -458,7 +459,7 @@
 					,"Unavailable <for [Sylvania]>","Unavailable <for [Kislev]>","Unavailable <for [Norsca]>","Unavailable <for [Hordes of Chaos]>","Unavailable <for [Beastmen]>",
 					"Unavailable <for [Ironclaw Orcs]>","Unavailable <for [Khemri]>","Unavailable <for [Araby]>","Unavailable <for [Ind]>","Unavailable <for [Ogre Kingdoms]>",
 					"Unavailable <for [Kurgan]>","Unavailable <for [Ulthuan]>","Unavailable <for [Cathay]>","Unavailable <for [Nippon]>",
-					"Unavailable <for [Naggaroth]>","Unavailable <for [Slann]>","Unavailable <for [Amazonia]>",
+					"Unavailable <for [Naggaroth]>","Unavailable <for [Slann]>","Unavailable <for [Amazonia]>","Unavailable <for [Nurgle]>","Unavailable <for [Khorne]>","Unavailable <for [Slaanesh]>","Unavailable <for [Tzeentch]>",
 					"[Recon] units gain the [Coming from Beneath] promotion",
 					"[Melee] units gain the [Coming from Beneath] promotion"],
 				"quote": "'They are watching me now, I know. They are in the walls, under the stones, in the canals, everywhere.' -Doctor Anton Wiessang, Master Necromancer, last diary entry.",
@@ -566,6 +567,13 @@
 				"prerequisites": ["Raw Magic","Chaos"],
 				"quote": "Dhar, also called Dark Magic or, more rarely, Black Magic, is a form of magic that draws on all eight of the Winds of Magic yet does so in a corrupt and unbalanced way that can twist the physical environment, cause rampant mutation in the caster or bystanders, lead to the user's damnation by Chaos or otherwise damage reality itself."
 			},
+			{
+				"name": "Pacts with Daemons",
+				"row": 13,
+				"prerequisites": ["Raw Magic","Chaos","Alchemy"],
+				"uniques":["May buy [May Paradrop up to [13] tiles from inside friendly territory] units with [Faith] for [1] times their normal Production cost [in all cities]",
+				"quote": "The Daemon lied with every breath. It could not help itself but to deceive and dismay, to riddle and ruin. The longer we conversed, the closer I drew to one singular ineluctable fact: I would gain no wisdom here. The Daemon's mind was a labyrinth of deceptions. Truth was trammelled at the heart of that maze and far beyond my meagre reach. —Liber Malefic."
+			}
 		]
 	},
 	{
@@ -610,7 +618,7 @@
 				"row": 13,
 				"prerequisites": ["Elemental Magic"],
 				"quote": ""
-			}
+			},
 		]
 	},
 	{
@@ -796,7 +804,7 @@
 							"May buy [The End Times] buildings with [Faith] [in capital]"],
 				"prerequisites": ["Bloodlust of Khorne","Slaanesh's Pleasures","Gifts of the Plagued One","Lore of Change"],
 				"quote": ""
-			}
+			},
 		]
 	},
 	{
