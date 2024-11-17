@@ -3553,8 +3553,8 @@
 		"uniqueTo": "Skaven",
 		"unitType": "Civilian",
 		"movement": 2,
-		"cost": 48,
-		"uniques": ["Can build [Land] improvements on tiles"],
+		"cost": 5,
+		"uniques": ["Can build [Land] improvements on tiles <after which this unit is consumed>"],
 		"promotions": ["Ignore terrain cost"],
 		"civilopediaText": [
 			{"text": "Although not official considered a part of the army, the Slaverats of many clans still play an important and vital role during the heat of battle. Their main purpose in the battlefield is to swarm head-long against the front of the enemy army, tiring or absorbing much of the fighting while the more proper soldiers of the clan rush in afterward to support them. They would also do menial tasks when not in the battlefield, which include labour, mining, tunnelling, or, in dire times, even becoming a reserve food supply for the Skaven army."}
@@ -3623,7 +3623,6 @@
 		"cost": 175,
 		"requiredResource": "Warpstone",
 		"requiredTech": "Gunpowder",
-		"obsoleteTech": "Rifling",
 		"upgradesTo": "Ratling Gun",
 		"attackSound": "shot",
 		"civilopediaText": [
@@ -3658,7 +3657,6 @@
 		"strength": 38,
 		"cost": 300,
 		"requiredTech": "Rifling",
-		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Stormfiend",
 		"attackSound": "shot",
 		"civilopediaText": [
@@ -3729,7 +3727,6 @@
 		"strength": 24,
 		"cost": 120,
 		"requiredTech": "Steel",
-		"obsoleteTech": "Gunpowder",
 		"upgradesTo": "Warpfire Thrower",
 		"uniques": ["[+10] HP when healing", 
 					"Preachable"],
@@ -4074,14 +4071,13 @@
 		"cost": 75,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Black Orc",
-		"obsoleteTech": "Steel",
 		"uniques": ["Preachable"],
 		"promotions": ["Elusive"],
 		"requiredResource": "Iron",
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit",
 		"civilopediaText": [
-			{"text": "Notorious for its agility and nimble movements, Gutter Runner is an elusive target to hit. They move like a wind."}
+			{"text": "Orc Big Uns take all the strength and size of orcs, and amplify it. Natural born killers, it is not uncommon for them to be renowned by regular Boyz."}
 		]
 	},
 	{
@@ -4093,14 +4089,13 @@
 		"strength": 24,
 		"cost": 120,
 		"requiredTech": "Steel",
-		"obsoleteTech": "Gunpowder",
 		"upgradesTo": "Musketman",
 		"uniques": ["[+10] HP when healing", 
 					"Preachable"],
 		"promotions": ["Plunderer"],
 		"attackSound": "metalhit",
 		"civilopediaText": [
-			{"text": "Strong yet stubborn kin of Goblin. Orc is a melee unit specialized for raiding cities."}
+			{"text": "Strong yet stubborn and a tad stupid. Black Orcs feel at ease when among others of their kind, and can be great leaders on their own right."}
 		]
 	},
 	{
@@ -4113,15 +4108,13 @@
 		"cost": 135,
 		"requiredTech": "Chivalry",
 		"requiredResource": "Horses",
-		"upgradesTo": "Cavalry",
-		"obsoleteTech": "Military Science",
 		"uniques": ["Can move after attacking", 
 					"No defensive terrain bonus", 
 					"Preachable"],
 		"promotions": ["Reactive Armor","Quick Study"],
 		"attackSound": "horse",
 		"civilopediaText": [
-			{"text": ""}
+			{"text": "Perhaps the most dangerous thing is not an Orc, but an Orc that is fast. An intuitive thing to Orcs themselves, they mount boars to battle in an attempt to outpace weaker foes."}
 		]
 	},
 
@@ -4159,19 +4152,20 @@
 		]
 	},
 	{
-		"name": "Wolf Rider",
+		"name": "Squig Rider",
 		"unitType": "Mounted",
 		"replaces": "Light Knight",
 		"uniqueTo": "Badmoon Goblins",
 		"movement": 4,
 		"strength": 20,
-		"cost": 115,
+		"cost": 135,
 		"requiredTech": "Stirrups",
 		"requiredResource": "Horses",
 		"upgradesTo": "Knight",
-		"obsoleteTech": "Chivalry",
 		"uniques": ["Can move after attacking", 
 					"No defensive terrain bonus", 
+					"[+15]% Strength <when fighting in [Rough terrain] tiles>", 
+					"Heals [15] damage if it kills a unit", 
 					"Preachable"],
 		"promotions": ["Highlander"],
 		"attackSound": "horse",
@@ -4192,6 +4186,22 @@
 		"promotions": ["Ignore terrain cost"],
 		"civilopediaText": [
 			{"text": "Cheaper and fast moving Worker. Tavari workers have gone through a series of education to increase their effectiveness during works."}
+		]
+	},
+	{
+		"name": "Ogre Bull",
+		"unitType": "Sword",
+		"replaces": "Warrior",
+		"uniqueTo": "Ogre Kingdoms",
+		"movement": 2,
+		"strength": 25,
+		"cost": 140,
+		"uniques": ["No movement cost to pillage",
+				"[+50]% maintenance costs",
+				"Destroys tile improvements when attacking"],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "Ogre Bulls are the core fighting force of Ogre Kingdoms. While they'd rather make their Gnoblars do the work, it is undeniable they fight exceptionally well, although their savagery has drawbacks."}
 		]
 	},
 	{
